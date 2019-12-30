@@ -1,5 +1,5 @@
 ---
-name: About Awake
+name: About Access Web Online
 image: /logo.svg
 ---
-All about the Awake Nuxt Template
+All about the Access Web Online
