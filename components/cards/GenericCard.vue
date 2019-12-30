@@ -79,7 +79,7 @@ export default {
 </script>
 <style scoped lang="scss">
 .subtitle {
-  opacity: 0.5;
+  // opacity: 0.5;
   font-size: 0.8rem;
 }
 .empty-content-placeholder {

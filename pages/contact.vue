@@ -22,6 +22,7 @@
                   :srcset="
                     require('~/assets/uploads/contact-person.jpg').srcSet
                   "
+                  alt=""
                 />
               </figure>
               <br />
