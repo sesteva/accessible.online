@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <nuxt-link :to="link">
+      <nuxt-link :to="link" aria-hidden="true">
         <figure :class="`image is-${imageRatioClass}`">
           <opti-image
             v-if="image"
@@ -10,6 +10,7 @@
             :width="imageRatio[0]"
             :height="imageRatio[1]"
             :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
+            alt=""
           />
           <loading-spinner position="absolute" />
         </figure>

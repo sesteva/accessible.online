@@ -9,6 +9,7 @@
       <div class="field has-addons is-fullwidth">
         <p class="control has-icons-left">
           <input
+            id="subemail"
             v-model="email"
             class="input"
             type="email"
@@ -21,9 +22,11 @@
           </span>
         </p>
         <div class="control">
-          <button type="submit" class="button is-primary">
-            {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
-          </button>
+          <label for="subemail">
+            <button type="submit" class="button is-primary">
+              {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
+            </button>
+          </label>
         </div>
       </div>
     </form>
