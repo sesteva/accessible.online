@@ -1,5 +1,6 @@
 ---
-name: Third Party Integrations
-image: https://picsum.photos/1800/1801
+name: Software and Tools
+image: /uploads/contact-hero.jpg
+description: Software and Tools
 ---
-Extend the functionality of Awake with third party integrations
+
