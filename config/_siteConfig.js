@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  tagline: 'A blog about accessibility',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -18,10 +18,10 @@ export default {
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
-    {
-      name: 'About',
-      link: '/about'
-    },
+    // {
+    //   name: 'About',
+    //   link: '/about'
+    // },
     {
       name: 'Contact',
       link: '/contact'
@@ -31,13 +31,8 @@ export default {
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
+      name: 'Consulting Services',
+      link: 'https://santiagoesteva.com',
       target: '_blank'
     }
   ],
@@ -74,7 +69,7 @@ export default {
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://netlify.us4.list-manage.com/subscribe/post?u=eae9122e92ddc38de977074ee&amp;id=b0710a95bc'
     },
     custom: {
       on: false,
